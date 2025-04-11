@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathOfPurpose</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon" class="logo-img" width="500" height="100">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #f6f6f6;
+    font-family: 'lora', serif;
+}
+header {
+    background-color: skyblue;
+    height: 66px;
+    
+}
+header * {
+    color: white;
+}
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+
+}
+header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+header .logo-text {
+    margin: 9px;
+    font-family: 'candal', serif;
+    color: rgb(233, 83, 133);
+}
+
+header ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    margin-right: 5em;
+    margin-top: 20px;
+}
+header ul li a {
+    padding: 21px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', serif;
+    text-decoration: none;
+}
+header ul li a:hover {
+    background: rgb(163, 219, 241);  
+    transition: 0.5s;
+    padding-bottom: 13px;
+    padding-top: 20px;
+}
+
+.main-content .content-post {
+    width: 50%;
+    height: inherit;
+    margin-bottom: 20px;
+    padding: 5px;
+    float: right;
+
+}
+
+ h2, .title {
+    font-family: 'candal';
+    color: rgb(0, 14, 123);
+}
+h3 {
+    font-family: 'bebas neue';
+}
+h1 {
+    font-family: 'candal';
+    
+}
+.btn-back {
+    padding: 10px 20px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: rgb(151, 218, 245);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    text-decoration: none;
+    font-family: 'candal';
+}
+.btn-back:hover {
+    background: rgb(72, 178, 220);
+}
+.content-img {
+    margin-top: 40px;
+    width: 45%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    header ul {
+    width: 100%;
+    background: rgb(142, 193, 238);
+   }
+   header ul li {
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-top: 0px;
+   }
+   header ul li a {
+    padding: 15px;
+   }
+   .feedback {
+     width: 40%;
+     margin-left: 0px;
+   }
+}
+</style>
+<body>
+    <header>
+        <div class="logo">
+        <h1 class="logo-text"><img src="mklogoz.jpg"  alt="mk">PathOfPurpose</h1>
+    </div>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            </ul>
+    </nav>
+</header>
+<main>
+    <div class="content-clearfix">
+        <div class="main-content">
+            <a href="blog1.html" class="btn-back">BACK</a>
+        <div class="post">
+            <img src="pic3.jpg" class="content-img" alt="pic3">
+            <div class="content-post">
+                <h1 class="title">Self-Growth: Unleashing Your Full Potential</h1>
+                <p>Self-growth is the continuous journey of transforming into the best version of yourself. It’s about embracing challenges, learning from experiences, and stepping out of your comfort zone to achieve personal fulfillment and success.
+                    <br>
+                    <br>
+                    <h2>1. Reflect on Your Current Self</h2>
+                    Take time to understand who you are today. Reflect on your strengths, weaknesses, passions, and values. Ask yourself:
+                      <li>What drives and motivates me?</li>
+                      <li>What areas of my life could use improvement? By knowing yourself better, you can chart a clear path forward.</li>
+                    <br>
+                    <br>
+                    <h2>2. Set Meaningful Goals</h2>
+                        Dream big, but start small. Define goals that align with your vision of self-growth. Break them down into achievable steps. Remember:
+                        <li>Specific goals spark focus</li>
+                        <li>Measurable goals keep you accountabl</li>
+                    <br>
+                    <br>
+                    <h2>3. Cultivate a Growth Mindset</h2>
+                    Believe in your ability to evolve through effort and learning. Challenges are not roadblocks; they’re stepping stones. Celebrate progress and embrace failures as opportunities to learn.
+                      <br>
+                      <br>
+                    <h2>4. Continuous Learning</h2>
+                       <li>Read books or attend workshops</li>
+                       <li>Explore hobbies that spark creativity and passion</li>
+                       <li>How can my skills positively impact the world?</li>
+                    <br>
+                    <br>
+                <h2>5. Step Outside Your Comfort Zone</h2>
+                       Growth happens in unfamiliar territory. Whether it’s presenting your ideas to others or starting a blog about personal or spiritual themes, embrace discomfort as a necessary part of progress.
+                    <br>
+                    <br>
+                    <br>
+                    Self-growth is a journey, not a destination. Every challenge you face, every step you take, brings you closer to unlocking your full potential. Remember: greatness isn’t born—it’s cultivated through courage, consistency, and an unwavering belief in yourself.
+
+                </p>
+            </div>
+            <div class="feedback">
+                <form action="submit_feedback.php" method="post">
+                <label for="feedback">We value your thoughts:</label><br>
+                <textarea id="feedback" name="feedback" rows="10" cols="40" placeholder="Share your feedback here..."></textarea><br>
+            </form>
+            <form action="submit_rating.php" method="post">
+              <label for="rating">Rate us:</label><br>
+              <input type="range" id="rating" name="rating" min="1" max="10" step="1">
+              <br><button type="submit">Submit</button>
+            </form>
+              </div>
+        </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>
